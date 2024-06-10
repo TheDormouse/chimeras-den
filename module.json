@@ -1,0 +1,68 @@
+{
+  "id": "chimeras-den",
+  "title": "Chimera's Den",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Marchy",
+      "discord": ".marchy"
+    },
+    {
+      "name": "DM Joe",
+      "discord": "dm_joe"
+    },
+    {
+      "name": "Batro"
+    }
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "Items",
+      "label": "Pack 4",
+      "path": "packs/Items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
